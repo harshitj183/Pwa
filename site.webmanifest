@@ -49,7 +49,7 @@
         }
     ],
     "theme_color": "#007cff",
-    "background_color": "#007cff",
+    "background_color": "yellow",
     "start_url": "https://harshitj183.blogspot.com",
     "display": "standalone"
 }
