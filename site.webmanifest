@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Harshit Jaiswal (@harshitj183)",
+    "short_name": "Harshit Jaiswal (@harshitj183)",
     "icons": [
         {
             "src": "/android-chrome-36x36.png",
@@ -48,8 +48,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#007cff",
+    "background_color": "#007cff",
     "start_url": "https://harshitj183.blogspot.com",
     "display": "standalone"
 }
