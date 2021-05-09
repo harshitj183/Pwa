@@ -3,22 +3,22 @@
     "short_name": "Harshit Jaiswal (@harshitj183)",
     "icons": [
         {
-            "src": "/android-chrome-36x36.png",
+            "src": "https://1.bp.blogspot.com/-K-BIpn0jKBc/YJgZwoqIW5I/AAAAAAAAJD0/c8KZvNp1PEIIPds5qWLKDOdozf_2BktaQCLcBGAsYHQ/s320/android-chrome-512x512_1_36x36.png",
             "sizes": "36x36",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-48x48.png",
+            "src": "https://1.bp.blogspot.com/-7h6R8TPHD6A/YBzJQm7Q3iI/AAAAAAAAGwM/aV7hGUu4o0w-egeheJ0SgEk6Xfe8TYjwwCLcBGAsYHQ/s48/favicon.ico",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-72x72.png",
+            "src": "https://1.bp.blogspot.com/-3bFTjnV6Wco/YJgaZ6kgb-I/AAAAAAAAJD8/SWjMik8enYcx8dY1hnxXiFUwZBZx3yFrgCLcBGAsYHQ/s72/android-chrome-512x512_2_72x72.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-96x96.png",
+            "src": "https://1.bp.blogspot.com/-PhTl4vxCvms/YJgasj-wjSI/AAAAAAAAJEk/0r0ycGA1iKMBytxKwok9Gr-scXpq9ifwwCLcBGAsYHQ/s96/android-chrome-96x96.png",
             "sizes": "96x96",
             "type": "image/png"
         },
