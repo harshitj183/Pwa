@@ -3,53 +3,53 @@
     "short_name": "Harshit Jaiswal (@harshitj183)",
     "icons": [
         {
-            "src": "https://1.bp.blogspot.com/-K-BIpn0jKBc/YJgZwoqIW5I/AAAAAAAAJD0/c8KZvNp1PEIIPds5qWLKDOdozf_2BktaQCLcBGAsYHQ/s320/android-chrome-512x512_1_36x36.png",
+            "src": "/android-chrome-36x36.png",
             "sizes": "36x36",
             "type": "image/png"
         },
         {
-            "src": "https://1.bp.blogspot.com/-7h6R8TPHD6A/YBzJQm7Q3iI/AAAAAAAAGwM/aV7hGUu4o0w-egeheJ0SgEk6Xfe8TYjwwCLcBGAsYHQ/s48/favicon.ico",
+            "src": "/android-chrome-48x48.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "https://1.bp.blogspot.com/-3bFTjnV6Wco/YJgaZ6kgb-I/AAAAAAAAJD8/SWjMik8enYcx8dY1hnxXiFUwZBZx3yFrgCLcBGAsYHQ/s72/android-chrome-512x512_2_72x72.png",
+            "src": "/android-chrome-72x72.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "https://1.bp.blogspot.com/-PhTl4vxCvms/YJgasj-wjSI/AAAAAAAAJEk/0r0ycGA1iKMBytxKwok9Gr-scXpq9ifwwCLcBGAsYHQ/s96/android-chrome-96x96.png",
+            "src": "/android-chrome-96x96.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "https://1.bp.blogspot.com/-k0zQojrA_TE/YJgauu2JdHI/AAAAAAAAJE4/u28ymEr6KOMwcSJw4GUQ9_4yyDn7smvWwCLcBGAsYHQ/s144/apple-touch-icon-144x144-precomposed.png",
+            "src": "/android-chrome-144x144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "https://1.bp.blogspot.com/-IxpKwEUssh8/YBzJPqhMpRI/AAAAAAAAGv4/JGQALUR0q_obAdgX7TyK__Wi10bUbHDjACLcBGAsYHQ/s0/android-chrome-192x192.png",
+            "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://1.bp.blogspot.com/-4f8obREvQUo/YJgaqQtnkGI/AAAAAAAAJEM/m1dMtn9jBJUwrtVExIpCu-rW4gr7Lr02wCEwYBhgLKtMDAL1Ocqx3XCpQsnVpMAhtw3WmYYk22f9IMkP6doSU3N_zrY2NnDk3WK2wDit0-0dnpT6P7_eBVx2DvgzPb912uTBGG1fUSUlVtXwVKs8D4sAM-GgPlHwHcXbsw8wBnh7n3f51haFdA87jwhqyJ8uD60gldr3C-wbvSJwAXkxyGiQs68_oDP8mPWUdqAgtO6XpBfQO_PgDdGLj6OAgp51c8Aop-94tMHZa8sh8DrjrO7ptLWeXur9rZ925G9bHxS_PARPuKZzgg8r6TATFNcTTEbQAW2jzQF9HoyvB3YnSC_D2KjAlqFOl87uNGHTf6xFbBA6oBtAQwPwkC3oakm0pCyacN_Acy92g9j_D6PKmgcRduPiRpfEmkF1NT5AeTrHuIFKCNNOI6yu4ZzxxFlxiKiOZBdxbQmrwl29UUxUrvXgihweZK3KHETQX5F_K5EMDsgxvVn-DxngySJmTuB1dKKZ8S0tG1NfdejT5h4-pxhWJo8vKjIelPLojT0FxBApTMttAXUcxa5Da2-0CqcbV7iONdH4musP-q7-9VUIs29v9-LyG0Gw2_sJKeoknTwbCc2mhdUC5Sim1J-W9_aFh7jfWDu_p8bOENxqBfQkyTPxbVG4wg7rghAY/s256/android-chrome-256x256.png",
+            "src": "/android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "https://1.bp.blogspot.com/-xd0cXWsZcXc/YJgarDPHOOI/AAAAAAAAJEU/tegOM48SaqYfA0C4EF33irKm78n1kvlMQCLcBGAsYHQ/s320/android-chrome-384x384.png",
+            "src": "/android-chrome-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
         },
         {
-            "src": "https://1.bp.blogspot.com/-6SGalRDdz1U/YBzJPX22y9I/AAAAAAAAGv8/rBc6KTuJrT4Tj7coYnQEzkl_UnWHnpz4wCLcBGAsYHQ/s512/android-chrome-512x512.png",
+            "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
     "theme_color": "#007cff",
-    "background_color": "yellow",
+    "background_color": "#007cff",
     "start_url": "https://harshitj183.blogspot.com",
-    "display": "Fullscreen"
+    "display": "standalone"
 }
