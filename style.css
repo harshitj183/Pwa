@@ -1,110 +1,9 @@
-
-/*
-
-<Variable name="keycolor" description="Main Color" type="color" default="#007bff" value="#007bff"/><Group description="Theme Options"><Variable name="darkmode" description="Native Dark Mode" type="length" default="0px" min="0px" max="1px" value="0px"/><Variable name="userdarkmode" description="User Dark Mode" type="length" default="1px" min="0px" max="1px" value="1px"/><Variable name="fixedmenu" description="Fixed Menu" type="length" default="1px" min="0px" max="1px" value="1px"/><Variable name="sidebar" description="Left Sidebar" type="length" default="0px" min="0px" max="1px" value="1px"/><Variable name="fixedsidebar" description="Fixed Sidebar" type="length" default="1px" min="0px" max="1px" value="1px"/></Group><Group description="Theme Widths"><Variable name="boxed" description="Boxed Mode" type="length" default="0px" min="0px" max="1px" value="0px"/><Variable name="row.width" description="Container Width" type="length" default="1058px" min="970px" max="1094px" value="1058px"/><Variable name="sidebar.width" description="Sidebar Width" type="length" default="300px" min="250px" max="336px" value="300px"/></Group><Group description="Theme Fonts"><Variable name="main.font" description="Site Font" type="font" family="Raleway" default="normal 400 14px $(family)" value="normal bold 14px Chewy"/><Variable name="menu.font" description="Menu Font" type="font" family="Raleway" default="normal 400 14px $(family)" value="normal bold 14px Allerta"/><Variable name="title.font" description="Title Font" type="font" family="Raleway" default="normal 400 14px $(family)" value="normal bold 14px Roboto"/><Variable name="text.font" description="Text Font" type="font" family="Raleway" default="normal 400 14px $(family)" value="normal normal 14px Raleway"/></Group><Group description="Background"><Variable name="background.color" description="Body Background" type="color" default="#F1F3F4"  value="#F1F3F4"/><Variable name="body.background" description="Background" type="background" color="$(background.color)" default="$(color) none repeat fixed top left" value="$(color) none repeat fixed top left"/><Variable name="outer.bg" description="Outer Background" type="color" default="#FFFFFF"  value="#FFFFFF"/><Variable name="outer.mobile.bg" description="Outer Mobile Background" type="color" default="#F1F3F4"  value="#F1F3F4"/></Group><Group description="Theme Colors"><Variable name="main.color" description="Theme Color" type="color" default="#1A73E8" value="#1A73E8"/><Variable name="title.color" description="Title Color" type="color" default="#202124" value="#202124"/><Variable name="title.hover.color" description="Title Hover Color" type="color" default="$(main.color)" value="#1A73E8"/><Variable name="meta.color" description="Meta Color" type="color" default="#636466" value="#0064e8"/><Variable name="text.color" description="Text Color" type="color" default="#3C4043"  value="#3C4043"/></Group><Group description="Site Header" selector="#header-wrapper"><Variable name="header.bg" description="Header Background" type="color" default="#FFFFFF" value="#007cff"/><Variable name="header.color" description="Header Color" type="color" default="$(title.color)" value="#202124"/><Variable name="header.hover.color" description="Header Hover Color" type="color" default="$(main.color)" value="#ffff00"/></Group><Group description="Sub Menu"><Variable name="submenu.bg" description="Sub Menu Background" type="color" default="#FFFFFF" value="#0f9d58"/><Variable name="submenu.color" description="Sub Menu Color" type="color" default="$(title.color)" value="#202124"/><Variable name="submenu.hover.color" description="Sub Menu Hover Color" type="color" default="$(main.color)" value="#1A73E8"/></Group><Group description="Mega Menu"><Variable name="megamenu.bg" description="Mega Menu Background" type="color" default="$(submenu.bg)" value="#ffff00"/><Variable name="megamenu.color" description="Mega Menu Color" type="color" default="$(submenu.color)" value="#202124"/><Variable name="megamenu.hover.color" description="MegaMenu Hover Color" type="color" default="$(main.color)" value="#1A73E8"/></Group><Group description="Mobile Menu"><Variable name="mmenu.bg" description="Mobile Menu Background" type="color" default="$(outer.bg)" value="#ffff00"/><Variable name="mmenu.color" description="Mobile Menu Color" type="color" default="$(title.color)" value="#202124"/><Variable name="mmenu.hover.color" description="Mobile Menu Hover Color" type="color" default="$(main.color)" value="#1A73E8"/></Group><Group description="Header ADS" selector="#header-ads-wrap"><Variable name="headerad.onpost" description="Show on Post Page" type="length" default="1px" min="0px" max="1px" value="1px"/></Group><Group description="Theme Widgets" select="#sidebar"><Variable name="widget.bg" description="Widget Background" type="color" default="#FFFFFF" value="#FFFFFF"/><Variable name="wtitle.color" description="Widget Title Color" type="color" default="$(title.color)" value="#202124"/></Group><Group description="Post Styles" select="#main"><Variable name="post.title.color" description="Post Title Color" type="color" default="$(title.color)" value="#202124"/><Variable name="post.title.hover.color" description="Post Title Hover Color" type="color" default="$(title.hover.color)" value="#1A73E8"/><Variable name="post.text.color" description="Post Page Text Color" type="color" default="$(text.color)" value="#3C4043"/><Variable name="itempost.title.size" description="Post Page Title Font Size" type="length" default="37px" min="20px" max="50px" value="37px"/><Variable name="itempost.content.size" description="Post Page Text Font Size" type="length" default="14px" min="12px" max="20px" value="14px"/></Group><Group description="Post Page Options" select="#main"><Variable name="breadcrumb" description="Post Breadcrumbs" type="length" default="1px" min="0px" max="1px" value="1px"/><Variable name="cmm.count" description="Comments Count" type="length" default="1px" min="0px" max="1px" value="1px"/><Variable name="postnav" description="Post Navigation" type="length" default="1px" min="0px" max="1px" value="1px"/></Group><Group description="Footer ADS" selector="#footer-ads-wrap"><Variable name="footerad.onpost" description="Show on Post Page" type="length" default="1px" min="0px" max="1px" value="1px"/></Group><Group description="Theme Footer" selector="#footer-wrapper"><Variable name="footer.bg" description="Footer Background" type="color" default="#FFFFFF" value="#FFFFFF"/><Variable name="footer.color" description="Footer Color" type="color" default="$(text.color)" value="#3C4043"/><Variable name="footer.hover.color" description="Footer Hover Color" type="color" default="$(main.color)" value="#1A73E8"/></Group><Group description="FooterBar" selector=".footerbar"><Variable name="footerbar.bg" description="FooterBar Background" type="color" default="$(footer.bg)" value="#FFFFFF"/><Variable name="footerbar.color" description="FooterBar Color" type="color" default="$(title.color)" value="#202124"/><Variable name="footerbar.hover.color" description="FooterBar Hover Color" type="color" default="$(main.color)" value="#1A73E8"/></Group><Group description="Cookie Consent" selector="#gnews-pro-cookie-ify"><Variable name="cookie.bg" description="Cookie Background" type="color" default="#FFFFFF" value="#FFFFFF"/><Variable name="cookie.color" description="Cookie Text Color" type="color" default="$(text.color)" value="#3C4043"/></Group><Group description="Theme Buttons"><Variable name="button.bg" description="Button Background" type="color" default="$(main.color)" value="#1A73E8"/><Variable name="button.color" description="Button Color" type="color" default="#FFFFFF" value="#FFFFFF"/><Variable name="button.hover.bg" description="Button Hover Background" type="color" default="#1767D0" value="#1767D0"/><Variable name="button.hover.color" description="Button Hover Color" type="color" default="#FFFFFF" value="#FFFFFF"/></Group><Group description="Theme Fonts (Reset)"><Variable name="mainfont.italic" description="Main Font Italic" type="font" default="italic 400 14px $(main.font.family)" value="italic 400 14px $(family)"/><Variable name="mainfont.medium" description="Main Font Medium" type="font" default="normal 500 14px $(main.font.family)" value="normal 500 14px $(family)"/><Variable name="mainfont.mediumitalic" description="Main Font Medium Italic" type="font" default="italic 500 14px $(main.font.family)" value="italic 500 14px $(family)"/><Variable name="mainfont.bold" description="Main Font Bold" type="font" default="normal 700 14px $(main.font.family)" value="normal 700 14px $(family)"/><Variable name="mainfont.bolditalic" description="Main Font Bold Italic" type="font" default="italic 700 14px $(main.font.family)" value="italic 700 14px $(family)"/><Variable name="menufont.italic" description="Menu Font Italic" type="font" default="italic 400 14px $(menu.font.family)" value="italic 400 14px $(family)"/><Variable name="menufont.sb" description="Menu Font SemiBold" type="font" default="normal 600 14px $(menu.font.family)" value="normal 600 14px $(family)"/><Variable name="menufont.sbitalic" description="Menu Font SemiBold Italic" type="font" default="italic 600 14px $(menu.font.family)" value="italic 600 14px $(family)"/><Variable name="menufont.bold" description="Menu Font Bold" type="font" default="normal 700 14px $(menu.font.family)" value="normal 700 14px $(family)"/><Variable name="menufont.bolditalic" description="Menu Font Bold Italic" type="font" default="italic 700 14px $(menu.font.family)" value="italic 700 14px $(family)"/><Variable name="titlefont.italic" description="Title Font Italic" type="font" default="italic 400 14px $(title.font.family)" value="italic 400 14px $(family)"/><Variable name="titlefont.sb" description="Title Font SemiBold" type="font" default="normal 600 14px $(title.font.family)" value="normal 600 14px $(family)"/><Variable name="titlefont.sbitalic" description="Title Font SemiBold Italic" type="font" default="italic 600 14px $(title.font.family)" value="italic 600 14px $(family)"/><Variable name="titlefont.bold" description="Title Font Bold" type="font" default="normal 700 14px $(title.font.family)" value="normal 700 14px $(family)"/><Variable name="titlefont.bolditalic" description="Title Font Bold Italic" type="font" default="italic 700 14px $(title.font.family)" value="italic 700 14px $(family)"/><Variable name="textfont.italic" description="Text Font Italic" type="font" default="italic 400 14px $(text.font.family)" value="italic 400 14px $(family)"/><Variable name="textfont.medium" description="Text Font Medium" type="font" default="normal 500 14px $(text.font.family)" value="normal 500 14px $(family)"/><Variable name="textfont.mediumitalic" description="Text Font Medium Italic" type="font" default="italic 500 14px $(text.font.family)" value="italic 500 14px $(family)"/><Variable name="textfont.bold" description="Text Font Bold" type="font" default="normal 700 14px $(text.font.family)" value="normal 700 14px $(family)"/><Variable name="textfont.bolditalic" description="Text Font Bold Italic" type="font" default="italic 700 14px $(text.font.family)" value="italic 700 14px $(family)"/></Group><Variable name="body.background.color" description="Comments Background" hideEditor="true" type="color" default="transparent"  value="transparent"/><Variable name="body.title.color" description="Comments Color" hideEditor="true" type="color" default="$(title.color)" value="#202124"/><Variable name="body.text.color" description="Comments Text Color" hideEditor="true" type="color" default="$(text.color)"  value="#3C4043"/><Variable name="body.link.color" description="Comments Link Color" hideEditor="true" type="color" default="$(main.color)"  value="#1A73E8"/><Variable name="body.text.font" description="Comments Font 1" hideEditor="true" type="font" default="normal 400 14px raleway, Arial, sans-serif !important"  value="normal 400 14px raleway, Arial, sans-serif !important"/><Variable name="body.action.font.large" description="Comments Font 2" hideEditor="true" type="font" default="normal 700 14px raleway, Arial, sans-serif !important"  value="normal 700 14px raleway, Arial, sans-serif !important"/>
-*/
-
-/*-- CSS Variables --*/
-:root{
---body-font:'$(main.font.family)', Arial, sans-serif;
---menu-font:'$(menu.font.family)', Arial, sans-serif;
---title-font:'$(title.font.family)', Arial, sans-serif;
---text-font:'$(text.font.family)', Arial, sans-serif;
---body-bg-color:$(background.color);
---body-bg:$(body.background);
---outer-bg:$(outer.bg);
---outer-mobile-bg:$(outer.mobile.bg);
---main-color:$(main.color);
---title-color:$(title.color);
---title-hover-color:$(title.hover.color);
---meta-color:$(meta.color);
---text-color:$(text.color);
---header-bg:$(header.bg);
---header-color:$(header.color);
---header-hover-color:$(header.hover.color);
---submenu-bg:$(submenu.bg);
---submenu-color:$(submenu.color);
---submenu-hover-color:$(submenu.hover.color);
---megamenu-bg:$(megamenu.bg);
---megamenu-color:$(megamenu.color);
---megamenu-hover-color:$(megamenu.hover.color);
---mobilemenu-bg:$(mmenu.bg);
---mobilemenu-color:$(mmenu.color);
---mobilemenu-hover-color:$(mmenu.hover.color);
---widget-bg:$(widget.bg);
---widget-title-color:$(wtitle.color);
---post-card-bg:$(widget.bg);
---post-title-color:$(post.title.color);
---post-title-hover-color:$(post.title.hover.color);
---post-text-color:$(post.text.color);
---footer-bg:$(footer.bg);
---footer-color:$(footer.color);
---footer-hover-color:$(footer.hover.color);
---footerbar-bg:$(footerbar.bg);
---footerbar-color:$(footerbar.color);
---footerbar-hover-color:$(footerbar.hover.color);
---cookie-bg:$(cookie.bg);
---cookie-color:$(cookie.color);
---button-bg:$(button.bg);
---button-lite-bg:$(button.bg)10;
---button-color:$(button.color);
---button-hover-bg:$(button.hover.bg);
---button-hover-color:$(button.hover.color);
---rgba-gray:rgba(155,170,175,0.12);
---border-color:rgba(155,155,155,0.15);
---radius:8px;
---widget-shadow:0 1px 2px rgba(0,0,0,0.025);
---avatar-shadow:0px 1px 4px rgba(0,0,0,0.05);
-}
-html.is-dark{
---body-bg-color:#2b2b2b;
---body-bg:$(body.background);
---outer-bg:#1a1a1a;
---outer-mobile-bg:#1a1a1a;
---title-color:#f6f7f8;
---title-hover-color:$(title.hover.color);
---meta-color:#aaaaaa;
---text-color:#b4b6ba;
---header-bg:#202020;
---header-color:#f6f7f8;
---header-hover-color:$(header.hover.color);
---submenu-bg:#252525;
---submenu-color:#f6f7f8;
---submenu-hover-color:$(submenu.hover.color);
---megamenu-bg:#252525;
---megamenu-color:#f6f7f8;
---megamenu-hover-color:$(megamenu.hover.color);
---mobilemenu-bg:#1b1b1b;
---mobilemenu-color:#f6f7f8;
---mobilemenu-hover-color:$(mmenu.hover.color);
---widget-bg:#202020;
---widget-title-color:#f6f7f8;
---post-card-bg:#202020;
---post-title-color:#f6f7f8;
---post-title-hover-color:$(post.title.hover.color);
---post-text-color:#b4b6ba;
---footer-bg:#202020;
---footer-color:#b4b6ba;
---footer-hover-color:$(footer.hover.color);
---footerbar-bg:#202020;
---footerbar-color:#f6f7f8;
---footerbar-hover-color:$(footerbar.hover.color);
---cookie-bg:#202020;
---cookie-color:#b4b6ba;
---button-bg:$(button.bg);
---button-color:$(button.color);
---button-hover-bg:$(button.hover.bg);
---button-hover-color:$(button.hover.color);
---rgba-gray:rgba(155,155,155,0.04);
---border-color:rgba(155,155,155,0.03);
-}
 html.rtl{
 --body-font:'Tajawal',Arial,sans-serif;
 --menu-font:'Tajawal',Arial,sans-serif;
 --title-font:'Tajawal',Arial,sans-serif;
 --text-font:'Tajawal',Arial,sans-serif;
 }
-
 /*-- Reset CSS --*/
 a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{padding:0;margin:0;border:0;outline:none;vertical-align:baseline;background:0 0;text-decoration:none}dl,ul{list-style-position:inside;list-style:none}ul li{list-style:none}caption{text-align:center}img{border:none;position:relative}a,a:visited{text-decoration:none}.clearfix{clear:both}.section,.widget,.widget ul{margin:0;padding:0}a{color:var(--main-color)}a img{border:0}abbr{text-decoration:none}.CSS_LIGHTBOX{z-index:999999!important}.CSS_LIGHTBOX_ATTRIBUTION_INDEX_CONTAINER .CSS_HCONT_CHILDREN_HOLDER > .CSS_LAYOUT_COMPONENT.CSS_HCONT_CHILD:first-child > .CSS_LAYOUT_COMPONENT{opacity:0}.separator a{text-decoration:none!important;clear:none!important;float:none!important;margin-left:0!important;margin-right:0!important}#Navbar1,#navbar-iframe,.widget-item-control,a.quickedit,.home-link,.feed-links{display:none!important}.center{display:table;margin:0 auto;position:relative}.widget > h2,.widget > h3{display:none}.widget iframe,.widget img{max-width:100%}button,input,select,textarea{font-family:var(--body-font);-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:none;border-radius:0}input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}
 /*-- Style CSS --*/
@@ -167,7 +66,122 @@ to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}
 @keyframes spinner {
 0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
 to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}
-}#header-wrapper{position:relative;float:left;width:100%;z-index:50;margin:0}
+}
+.social a:before{display:inline-block;font-family:'Font Awesome 5 Brands';font-style:normal;font-weight:400}
+.social .blogger a:before{content:'\f37d'}
+.social .apple a:before{content:'\f179'}
+.social .amazon a:before{content:'\f270'}
+.social .microsoft a:before{content:'\f3ca'}
+.social .facebook a:before{content:'\f09a'}
+.social .facebook-f a:before{content:'\f39e'}
+.social .twitter a:before{content:'\f099'}
+.social .rss a:before{content:'\f09e';font-family:'Font Awesome 5 Free';font-weight:900}
+.social .youtube a:before{content:'\f167'}
+.social .skype a:before{content:'\f17e'}
+.social .stumbleupon a:before{content:'\f1a4'}
+.social .tumblr a:before{content:'\f173'}
+.social .vk a:before{content:'\f189'}
+.social .stack-overflow a:before{content:'\f16c'}
+.social .github a:before{content:'\f09b'}
+.social .linkedin a:before{content:'\f0e1'}
+.social .dribbble a:before{content:'\f17d'}
+.social .soundcloud a:before{content:'\f1be'}
+.social .behance a:before{content:'\f1b4'}
+.social .digg a:before{content:'\f1a6'}
+.social .instagram a:before{content:'\f16d'}
+.social .pinterest a:before{content:'\f0d2'}
+.social .pinterest-p a:before{content:'\f231'}
+.social .twitch a:before{content:'\f1e8'}
+.social .delicious a:before{content:'\f1a5'}
+.social .codepen a:before{content:'\f1cb'}
+.social .flipboard a:before{content:'\f44d'}
+.social .reddit a:before{content:'\f281'}
+.social .whatsapp a:before{content:'\f232'}
+.social .messenger a:before{content:'\f39f'}
+.social .snapchat a:before{content:'\f2ac'}
+.social .telegram a:before{content:'\f3fe'}
+.social .steam a:before{content:'\f3f6'}
+.social .discord a:before{content:'\f392'}
+.social .quora a:before{content:'\f2c4'}
+.social .tiktok a:before{content:'\e07b'}
+.social .share a:before{content:'\f064';font-family:'Font Awesome 5 Free';font-weight:900}
+.social .email a:before{content:'\f0e0';font-family:'Font Awesome 5 Free'}
+.social .external-link a:before{content:'\f35d';font-family:'Font Awesome 5 Free';font-weight:900}
+.social-bg .blogger a,.social-bg-hover .blogger a:hover{background-color:#ff5722}
+.social-bg .apple a,.social-bg-hover .apple a:hover{background-color:#333}
+.social-bg .amazon a,.social-bg-hover .amazon a:hover{background-color:#fe9800}
+.social-bg .microsoft a,.social-bg-hover .microsoft a:hover{background-color:#0067B8}
+.social-bg .facebook a,.social-bg .facebook-f a,.social-bg-hover .facebook a:hover,.social-bg-hover .facebook-f a:hover{background-color:#3b5999}
+.social-bg .twitter a,.social-bg-hover .twitter a:hover{background-color:#00acee}
+.social-bg .youtube a,.social-bg-hover .youtube a:hover{background-color:#f50000}
+.social-bg .instagram a,.social-bg-hover .instagram a:hover{background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)}
+.social-bg .pinterest a,.social-bg .pinterest-p a,.social-bg-hover .pinterest a:hover,.social-bg-hover .pinterest-p a:hover{background-color:#ca2127}
+.social-bg .dribbble a,.social-bg-hover .dribbble a:hover{background-color:#ea4c89}
+.social-bg .linkedin a,.social-bg-hover .linkedin a:hover{background-color:#0077b5}
+.social-bg .tumblr a,.social-bg-hover .tumblr a:hover{background-color:#365069}
+.social-bg .twitch a,.social-bg-hover .twitch a:hover{background-color:#6441a5}
+.social-bg .rss a,.social-bg-hover .rss a:hover{background-color:#ffc200}
+.social-bg .skype a,.social-bg-hover .skype a:hover{background-color:#00aff0}
+.social-bg .stumbleupon a,.social-bg-hover .stumbleupon a:hover{background-color:#eb4823}
+.social-bg .vk a,.social-bg-hover .vk a:hover{background-color:#4a76a8}
+.social-bg .stack-overflow a,.social-bg-hover .stack-overflow a:hover{background-color:#f48024}
+.social-bg .github a,.social-bg-hover .github a:hover{background-color:#24292e}
+.social-bg .soundcloud a,.social-bg-hover .soundcloud a:hover{background:linear-gradient(#ff7400,#ff3400)}
+.social-bg .behance a,.social-bg-hover .behance a:hover{background-color:#191919}
+.social-bg .digg a,.social-bg-hover .digg a:hover{background-color:#1b1a19}
+.social-bg .delicious a,.social-bg-hover .delicious a:hover{background-color:#0076e8}
+.social-bg .codepen a,.social-bg-hover .codepen a:hover{background-color:#000}
+.social-bg .flipboard a,.social-bg-hover .flipboard a:hover{background-color:#f52828}
+.social-bg .reddit a,.social-bg-hover .reddit a:hover{background-color:#ff4500}
+.social-bg .whatsapp a,.social-bg-hover .whatsapp a:hover{background-color:#3fbb50}
+.social-bg .messenger a,.social-bg-hover .messenger a:hover{background-color:#0084ff}
+.social-bg .snapchat a,.social-bg-hover .snapchat a:hover{background-color:#ffe700}
+.social-bg .telegram a,.social-bg-hover .telegram a:hover{background-color:#179cde}
+.social-bg .steam a,.social-bg-hover .steam a:hover{background:linear-gradient(5deg,#0d89bc,#112c5b,#0d1c47)}
+.social-bg .discord a,.social-bg-hover .discord a:hover{background-color:#7289da}
+.social-bg .quora a,.social-bg-hover .quora a:hover{background-color:#b92b27}
+.social-bg .tiktok a,.social-bg-hover .tiktok a:hover{background-color:#fe2c55}
+.social-bg .share a,.social-bg-hover .share a:hover{background-color:var(--meta-color)}
+.social-bg .email a,.social-bg-hover .email a:hover{background-color:#888}
+.social-bg .external-link a,.social-bg-hover .external-link a:hover{background-color:var(--title-color)}
+.social-color .blogger a,.social-color-hover .blogger a:hover{color:#ff5722}
+.social-color .apple a,.social-color-hover .apple a:hover{color:#333}
+.social-color .amazon a,.social-color-hover .amazon a:hover{color:#fe9800}
+.social-color .microsoft a,.social-color-hover .microsoft a:hover{color:#0067B8}
+.social-color .facebook a,.social-color .facebook-f a,.social-color-hover .facebook a:hover,.social-color-hover .facebook-f a:hover{color:#3b5999}
+.social-color .twitter a,.social-color-hover .twitter a:hover{color:#00acee}
+.social-color .youtube a,.social-color-hover .youtube a:hover{color:#f50000}
+.social-color .instagram a,.social-color-hover .instagram a:hover{color:#dd277b}
+.social-color .pinterest a,.social-color .pinterest-p a,.social-color-hover .pinterest a:hover,.social-color-hover .pinterest-p a:hover{color:#ca2127}
+.social-color .dribbble a,.social-color-hover .dribbble a:hover{color:#ea4c89}
+.social-color .linkedin a,.social-color-hover .linkedin a:hover{color:#0077b5}
+.social-color .tumblr a,.social-color-hover .tumblr a:hover{color:#365069}
+.social-color .twitch a,.social-color-hover .twitch a:hover{color:#6441a5}
+.social-color .rss a,.social-color-hover .rss a:hover{color:#ffc200}
+.social-color .skype a,.social-color-hover .skype a:hover{color:#00aff0}
+.social-color .stumbleupon a,.social-color-hover .stumbleupon a:hover{color:#eb4823}
+.social-color .vk a,.social-color-hover .vk a:hover{color:#4a76a8}
+.social-color .stack-overflow a,.social-color-hover .stack-overflow a:hover{color:#f48024}
+.social-color .github a,.social-color-hover .github a:hover{color:#24292e}
+.social-color .soundcloud a,.social-color-hover .soundcloud a:hover{color:#ff7400}
+.social-color .behance a,.social-color-hover .behance a:hover{color:#191919}
+.social-color .digg a,.social-color-hover .digg a:hover{color:#1b1a19}
+.social-color .delicious a,.social-color-hover .delicious a:hover{color:#0076e8}
+.social-color .codepen a,.social-color-hover .codepen a:hover{color:#000}
+.social-color .flipboard a,.social-color-hover .flipboard a:hover{color:#f52828}
+.social-color .reddit a,.social-color-hover .reddit a:hover{color:#ff4500}
+.social-color .whatsapp a,.social-color-hover .whatsapp a:hover{color:#3fbb50}
+.social-color .messenger a,.social-color-hover .messenger a:hover{color:#0084ff}
+.social-color .snapchat a,.social-color-hover .snapchat a:hover{color:#ffe700}
+.social-color .telegram a,.social-color-hover .telegram a:hover{color:#179cde}
+.social-color .steam a,.social-color-hover .steam a:hover{color:#112c5b}
+.social-color .discord a,.social-color-hover .discord a:hover{color:#7289da}
+.social-color .quora a,.social-color-hover .quora a:hover{color:#b92b27}
+.social-color .tiktok a,.social-color-hover .tiktok a:hover{color:#fe2c55}
+.social-color .share a,.social-color-hover .share a:hover{color:var(--meta-color)}
+.social-color .email a,.social-color-hover .email a:hover{color:#888}
+.social-color .external-link a,.social-color-hover .external-link a:hover{color:var(--title-color)}
+#header-wrapper{position:relative;float:left;width:100%;z-index:50;margin:0}
 .main-header,.header-inner{position:relative;float:left;width:100%;height:59px;background-color:var(--header-bg)}
 .header-inner{background-color:rgba(0,0,0,0)}
 .header-inner.is-fixed{position:fixed;top:-59px;left:0;width:100%;z-index:990;backface-visibility:hidden;visibility:hidden;opacity:0;transition:all .25s ease}
@@ -977,6 +991,26 @@ a.ads-here{height:65px}
 .errorWrap h3{font-size:110px}
 .errorWrap h4{font-size:27px}
 }
+/* for Firefox */
+
+::-moz-selection {
+
+       background-color: #007cff;
+
+       color: yellow;
+
+}
+
+
+
+/* for Safari and Chrome */
+
 
  
-  
+::selection {
+
+       background-color: #007cff;
+
+       color: yellow;
+
+}
