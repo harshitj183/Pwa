@@ -42,6 +42,18 @@
             "sizes": "384x384",
             "type": "image/png"
         },
+   {
+            "src": "https://1.bp.blogspot.com/-fQ2OE6xEFGs/YJiE3F6bZbI/AAAAAAAAJGw/yc_ncExh5lgXQ97jGpaVTfOrFpRyLUMJwCLcBGAsYHQ/s192/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://1.bp.blogspot.com/-6SGalRDdz1U/YBzJPX22y9I/AAAAAAAAGv8/rBc6KTuJrT4Tj7coYnQEzkl_UnWHnpz4wCLcBGAsYHQ/s512/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
         {
             "src": "https://1.bp.blogspot.com/-6SGalRDdz1U/YBzJPX22y9I/AAAAAAAAGv8/rBc6KTuJrT4Tj7coYnQEzkl_UnWHnpz4wCLcBGAsYHQ/s512/android-chrome-512x512.png",
             "sizes": "512x512",
