@@ -1,10 +1,10 @@
 {
     "name": "Harshit Jaiswal (@harshitj183)",
     "short_name": "Harshit Jaiswal (@harshitj183)",
-   "description": "Increase your knowledge with us",
     "icons": [
         {
             "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp?size=36",
+            "sizes": "36x36",
             "type": "image/png"
         },
         {
@@ -60,13 +60,9 @@
             "type": "image/png"
         }
     ],
-    "prefer_related_applications": "true",
     "theme_color": "#007cff",
     "background_color": "yellow",
-    "start_url": "https://www.harshitj183.eu.org",
-    "display": "standalone",
-    "orientation": "any",
-
+    "start_url": "https://www.harshitj183.eu.org/?pwa",
+    "display": "standalone"
 }
-
 
