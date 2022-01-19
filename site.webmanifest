@@ -63,7 +63,7 @@
     ],
     "theme_color": "#007cff",
     "background_color": "yellow",
-    "start_url": "/?pwa",
+    "start_url": "https://harshitj183.eu.org/?pwa",
     "display": "standalone",
 "orientation": "any",
 }
