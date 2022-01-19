@@ -60,9 +60,10 @@
             "type": "image/png"
         }
     ],
+    "prefer_related_applications": "true",
     "theme_color": "#007cff",
     "background_color": "yellow",
-    "start_url": "https://www.harshitj183.eu.org/?pwa",
-    "display": "standalone"
+    "start_url": "https://www.harshitj183.eu.org?pwa",
+    "display": "standalone",
+    "orientation": "any",
 }
-
