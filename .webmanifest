@@ -64,6 +64,6 @@
     "theme_color": "#007cff",
     "background_color": "yellow",
   "display": "standalone",
-    "prefer_related_applications": false,
+    "prefer_related_applications": "false",
   "start_url": "https://www.harshitj183.eu.org"
 }
