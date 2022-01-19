@@ -62,8 +62,8 @@
     ],
     "theme_color": "#007cff",
     "background_color": "yellow",
-    "start_url": "https://harshitj183.blogspot.com",
-    "display": "fullscreen"
+    "start_url": "https://www.harshitj183.eu.org/?pwa",
+    "display": "standalone"
 }
 
 
