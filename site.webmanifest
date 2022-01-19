@@ -43,19 +43,19 @@
             "type": "image/png"
         },
    {
-            "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp?size=192",
+            "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp?size=192&frame.style=dither&frame.rim.color=yellow",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp?size=512",
+            "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp?size=512&frame.style=dither&frame.rim.color=yellow",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp?size=512",
+            "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp?size=512&frame.style=dither&frame.rim.color=yellow",
             "sizes": "512x512",
             "type": "image/png"
         }
