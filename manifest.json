@@ -67,5 +67,8 @@
     "orientation": "any",
     "start_url": "https://www.harshitj183.eu.org/?pwa",
     "display": "standalone"
+"serviceworker": {
+    "src": "/sw.js"
+  }
 }
 
