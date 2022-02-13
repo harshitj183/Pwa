@@ -2,6 +2,10 @@
     "name": "Harshit Jaiswal (@harshitj183)",
     "short_name": "Harshit Jaiswal (@harshitj183)",
     "description": "Increase your knowledge with us",
+"serviceworker": {
+    "src": "/sw.js"
+  },
+
     "icons": [
         {
             "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp?size=36&frame.style=dither&frame.rim.color=yellow",
@@ -67,8 +71,5 @@
     "orientation": "any",
     "start_url": "https://www.harshitj183.eu.org/?pwa",
     "display": "standalone"
-"serviceworker": {
-    "src": "/sw.js"
-  }
 }
 
