@@ -5,6 +5,43 @@
 "serviceworker": {
     "src": "/sw.js"
   },
+"screenshots": [
+    {
+      "src": "/main/scr1.jpg",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/main/scr2.jpg",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/main/scr3.jpg",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/main/scr4.jpg",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/main/scr5.jpg",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/main/scr6.jpg",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/main/scr7.jpg",
+      "type": "image/png",
+      "sizes": "540x720"
+    }
+  ],
 
     "icons": [
         {
