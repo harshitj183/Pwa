@@ -1,8 +1,8 @@
 {
 "$schema": "https://json.schemastore.org/web-manifest-combined.json",
 
-    "name": "Harshit Jaiswal (@harshitj183)",
-    "short_name": "Harshit Jaiswal (@harshitj183)",
+    "name": "@harshitj183's blog",
+    "short_name": "@harshitj183's",
     "description": "Increase your knowledge with us.",
  "icons": [
         {
@@ -67,14 +67,14 @@
     "background_color": "yellow",
     "prefer_related_applications": "true",
     "orientation": "any",
-    "start_url": "https://www.harshitj183.eu.org/?pwa",
+    "start_url": "https://www.harshitj183.in/?pwa",
     "display": "standalone"
 "shortcuts": [
     {
       "name": "Harshit Jaiswal (@harshitj183)",
       "short_name": "Harshit Jaiswal (@harshitj183)",
       "description": "Increase your knowledge with us.",
-      "url": "https://www.harshitj183.eu.org/?pwa",
+      "url": "https://www.harshitj183.in/?pwa",
       "icons": [
         {
           "src": "https://harshitj183.sirv.com/ezgif-2-c184a5e89fd5.webp",
@@ -127,7 +127,7 @@
   ],
 
 "serviceworker": {
-    "src": "/sw.js"
+    "src": "https://www.harshitj183.in/sw.js"
   },
    
 }
